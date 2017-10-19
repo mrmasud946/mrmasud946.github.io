@@ -1,0 +1,63 @@
+#wrapper{ height:1820px; width:1500px;  margin:auto; margin-top:5px; background:#25251E  }
+#header{ height:150px; width:100%; background:#33DFFF;}
+#hleft { height:150px; width:20%; background:#1239E0; float: left; clear: right; }
+#hright {height:150px; width:80%;background:#FF5833;float:right; clear:right; }
+#masud{ height:400; width:100%;}
+#masud-left{ height:400px; width:31%; float:left; clear:right; margin:15px }
+#masud-center{ height:400px; width:31%; float:left; clear:right; margin:15px}
+#masud-right{ height:400px; width:31%; float:left; clear:right; margin:15px}
+#menu {
+	width:100%;
+	background:#000000;
+	height:50px;
+	margin-top:10px;
+	text-decoration:none;
+	}
+#menu ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	}
+
+#menu ul li{
+	text-decoration:none;
+	background:#000000;
+	width:187px;
+	color:white;
+	font-size:18px;
+	text-align:center;
+	line-height:50px;
+	float:left;
+	font-family:"courier New", courier, monospace;
+
+
+	}
+#menu ul li:hover{
+	background:#808080;
+		text-decoration:none;
+
+}
+
+
+#menu ul ul{
+			display:none;
+				text-decoration:none;
+			}
+#menu ul li:hover ul{
+					display:block;
+						text-decoration:none; 
+					}
+
+
+#footer{
+	 clear:both;
+	background:#25251E;
+	 width:97%;
+	 height:20px;
+	color:#ffffff ;
+	text-align:center;
+	font-size:15px;
+    padding:20px;
+	margin-top:7px;
+}
